@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,83 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Druk Wide Bold.ttf</string>
+		<string>Druk.otf</string>
+		<string>Drukold.ttf</string>
+		<string>Tourney-Black.ttf</string>
+		<string>Tourney-BlackItalic.ttf</string>
+		<string>Tourney-Bold.ttf</string>
+		<string>Tourney-BoldItalic.ttf</string>
+		<string>Tourney-ExtraBold.ttf</string>
+		<string>Tourney-ExtraBoldItalic.ttf</string>
+		<string>Tourney-ExtraLight.ttf</string>
+		<string>Tourney-ExtraLightItalic.ttf</string>
+		<string>Tourney-Italic.ttf</string>
+		<string>Tourney-Light.ttf</string>
+		<string>Tourney-LightItalic.ttf</string>
+		<string>Tourney-Medium.ttf</string>
+		<string>Tourney-MediumItalic.ttf</string>
+		<string>Tourney-Regular.ttf</string>
+		<string>Tourney-SemiBold.ttf</string>
+		<string>Tourney-SemiBoldItalic.ttf</string>
+		<string>Tourney-Thin.ttf</string>
+		<string>Tourney-ThinItalic.ttf</string>
+		<string>Tourney-Bold.otf</string>
+		<string>Tourney-BoldItalic.otf</string>
+		<string>Tourney-Condensed.otf</string>
+		<string>Tourney-CondensedBold.otf</string>
+		<string>Tourney-CondensedBoldItalic.otf</string>
+		<string>Tourney-CondensedExtraBold.otf</string>
+		<string>Tourney-CondensedExtraBoldItalic.otf</string>
+		<string>Tourney-CondensedExtraLight.otf</string>
+		<string>Tourney-CondensedExtraLightItalic.otf</string>
+		<string>Tourney-CondensedHeavy.otf</string>
+		<string>Tourney-CondensedHeavyItalic.otf</string>
+		<string>Tourney-CondensedItalic.otf</string>
+		<string>Tourney-CondensedLight.otf</string>
+		<string>Tourney-CondensedLightItalic.otf</string>
+		<string>Tourney-CondensedMedium.otf</string>
+		<string>Tourney-CondensedMediumItalic.otf</string>
+		<string>Tourney-CondensedSemiBold.otf</string>
+		<string>Tourney-CondensedSemiBoldItalic.otf</string>
+		<string>Tourney-CondensedThin.otf</string>
+		<string>Tourney-CondensedThinItalic.otf</string>
+		<string>Tourney-ExtraBold.otf</string>
+		<string>Tourney-ExtraBoldItalic.otf</string>
+		<string>Tourney-ExtraLight.otf</string>
+		<string>Tourney-ExtraLightItalic.otf</string>
+		<string>Tourney-Heavy.otf</string>
+		<string>Tourney-HeavyItalic.otf</string>
+		<string>Tourney-Italic.otf</string>
+		<string>Tourney-Light.otf</string>
+		<string>Tourney-LightItalic.otf</string>
+		<string>Tourney-Medium.otf</string>
+		<string>Tourney-MediumItalic.otf</string>
+		<string>Tourney-Regular.otf</string>
+		<string>Tourney-SemiBold.otf</string>
+		<string>Tourney-SemiBoldItalic.otf</string>
+		<string>Tourney-Thin.otf</string>
+		<string>Tourney-ThinItalic.otf</string>
+		<string>Tourney-Wide.otf</string>
+		<string>Tourney-WideBold.otf</string>
+		<string>Tourney-WideBoldItalic.otf</string>
+		<string>Tourney-WideExtraBold.otf</string>
+		<string>Tourney-WideExtraBoldItalic.otf</string>
+		<string>Tourney-WideExtraLight.otf</string>
+		<string>Tourney-WideExtraLightItalic.otf</string>
+		<string>Tourney-WideHeavy.otf</string>
+		<string>Tourney-WideHeavyItalic.otf</string>
+		<string>Tourney-WideItalic.otf</string>
+		<string>Tourney-WideLight.otf</string>
+		<string>Tourney-WideLightItalic.otf</string>
+		<string>Tourney-WideMedium.otf</string>
+		<string>Tourney-WideMediumItalic.otf</string>
+		<string>Tourney-WideSemiBold.otf</string>
+		<string>Tourney-WideSemiBoldItalic.otf</string>
+		<string>Tourney-WideThin.otf</string>
+		<string>Tourney-WideThinItalic.otf</string>
+	</array>
 </dict>
 </plist>
