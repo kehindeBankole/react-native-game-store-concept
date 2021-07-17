@@ -18,22 +18,6 @@ export default function Dualsense() {
           />
           <Text style={styles.text}>DUAL SENSE</Text>
         </View>
-        <View style={styles.control}>
-          <Image
-            style={styles.logo}
-            source={require('../assets/images/Controller.png')}
-            resizeMode="contain"
-          />
-          <Text style={styles.text}>DUAL SENSE</Text>
-        </View>
-        <View style={styles.control}>
-          <Image
-            style={styles.logo}
-            source={require('../assets/images/Controller.png')}
-            resizeMode="contain"
-          />
-          <Text style={styles.text}>DUAL SENSE</Text>
-        </View>
         </ScrollView>
       </View>
 
