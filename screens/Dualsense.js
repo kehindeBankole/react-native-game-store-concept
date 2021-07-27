@@ -6,7 +6,7 @@ import {
   Dimensions,
   Image,
   ScrollView,
-  FlatList
+  FlatList,
 } from 'react-native';
 import Header from '../components/Header';
 import Featurebox from '../components/Featurebox';
@@ -14,32 +14,50 @@ export default function Dualsense() {
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
       <View>
-       <View>
-       <Text>
-          <Header />
-        </Text>
-       </View>
+        <View>
+          <Text>
+            <Header />
+          </Text>
+        </View>
 
         <View style={styles.dualsense}>
           {/* <ScrollView
             showsVerticalScrollIndicator={false}
             style={{marginTop: 20}}> */}
-            <View style={styles.control}>
-              <Image
-                style={styles.logo}
-                source={require('../assets/images/Controller.png')}
-                resizeMode="contain"
-              />
-              <Text style={styles.text}>DUAL SENSE</Text>
-            </View>
-            <View>
+          <View style={styles.control}>
+            <Image
+              style={styles.logo}
+              source={require('../assets/images/Controller.png')}
+              resizeMode="contain"
+            />
+            <Text style={styles.text}>DUAL SENSE</Text>
+          </View>
+          <View>
             <FlatList
-        data={[1,2,3]}
-        renderItem={({item})=>(<View style={{marginRight:30}}><Featurebox/></View>)}
-        horizontal={true}
-        keyExtractor={item=>item}
-      />
-            </View>
+              data={[
+                {
+                  img: require('../assets/images/Microphone.png'),
+                  text:'Built-In Microphone'
+                },
+                {
+                  img: require('../assets/images/Headset.png'),
+                  text:'Headset Jack'
+                },
+                {
+                  img: require('../assets/images/Vector.png'),
+                  text:'Motion Sensor'
+                },
+              ]}
+              renderItem={({item}) => (
+                <View style={{paddingHorizontal: 20}}>
+                  <Featurebox img={item.img} text={item.text}/>
+                </View>
+              )}
+              horizontal={true}
+              keyExtractor={item => item.img}
+              showsHorizontalScrollIndicator={false}
+            />
+          </View>
           {/* </ScrollView> */}
         </View>
       </View>
@@ -49,11 +67,12 @@ export default function Dualsense() {
 
 const styles = StyleSheet.create({
   dualsense: {
-    backgroundColor: '#6F737B',
-    height: Dimensions.get('window').height,
+    backgroundColor: '#EEF2FA',
+    height: Dimensions.get('window').height + 50,
     borderTopLeftRadius: 60,
     borderTopRightRadius: 60,
     paddingHorizontal: 24,
+    //paddingBottom: Dimensions.get('window').height - 30
   },
   control: {
     position: 'relative',
