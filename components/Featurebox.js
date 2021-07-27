@@ -12,8 +12,8 @@ export default function Featurebox(props) {
 
 const styles = StyleSheet.create({
   container: {
-    height: 150,
-    width: 160,
+    height: 160,
+    width: 150,
     paddingHorizontal:16,
     paddingVertical:32,
     backgroundColor: '#EEF2FA',

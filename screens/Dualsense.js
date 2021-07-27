@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import Featurebox from '../components/Featurebox';
 export default function Dualsense() {
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <View>
       <View>
         <View>
           <Text>
@@ -20,10 +20,7 @@ export default function Dualsense() {
           </Text>
         </View>
 
-        <View style={styles.dualsense}>
-          {/* <ScrollView
-            showsVerticalScrollIndicator={false}
-            style={{marginTop: 20}}> */}
+        <ScrollView style={styles.dualsense}>
           <View style={styles.control}>
             <Image
               style={styles.logo}
@@ -37,20 +34,20 @@ export default function Dualsense() {
               data={[
                 {
                   img: require('../assets/images/Microphone.png'),
-                  text:'Built-In Microphone'
+                  text: 'Built-In Microphone',
                 },
                 {
                   img: require('../assets/images/Headset.png'),
-                  text:'Headset Jack'
+                  text: 'Headset Jack',
                 },
                 {
                   img: require('../assets/images/Vector.png'),
-                  text:'Motion Sensor'
+                  text: 'Motion Sensor',
                 },
               ]}
               renderItem={({item}) => (
-                <View style={{paddingHorizontal: 20}}>
-                  <Featurebox img={item.img} text={item.text}/>
+                <View style={{paddingHorizontal: 14}}>
+                  <Featurebox img={item.img} text={item.text} />
                 </View>
               )}
               horizontal={true}
@@ -58,10 +55,9 @@ export default function Dualsense() {
               showsHorizontalScrollIndicator={false}
             />
           </View>
-          {/* </ScrollView> */}
-        </View>
+        </ScrollView>
       </View>
-    </ScrollView>
+    </View>
   );
 }
 
@@ -72,6 +68,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 60,
     borderTopRightRadius: 60,
     paddingHorizontal: 24,
+    //  marginTop:50
     //paddingBottom: Dimensions.get('window').height - 30
   },
   control: {
